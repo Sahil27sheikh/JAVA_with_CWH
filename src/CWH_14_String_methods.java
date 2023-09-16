@@ -168,14 +168,30 @@ public class CWH_14_String_methods {
 
 
         // indexOf method of string
-        String p = "The true friendship between you and me";
-        System.out.println(p.indexOf("me"));
-        // this method is use to find the index number of the character and string but it return only first character or substring index not at all.
+
+        // indexOf normal method
+
+        String p = "The true friendship between you and me, its really true";
+//        System.out.println(p.indexOf("me"));
+        // this method is use to find the index number of the character and string but it return only first character or
+        // substring index not at all.
         // output:- 36
 
         // Example 2
-        System.out.println(p.indexOf("e"));
+//        System.out.println(p.indexOf("e"));
         // Output:- 2  // it print only the index of first "e".
+
+
+        // indexOf method with starting character.
+        // this method is use for find the index after the some character or substring.
+        // example 1
+        System.out.println(p.indexOf("true",15));
+        // Output:- 51
+
+        // Example 2
+        System.out.println(p.indexOf("s",43));
+        // Output:- -1  // it is print -1 because of there is no "s" character is present after 43.
+
 
 
     }
