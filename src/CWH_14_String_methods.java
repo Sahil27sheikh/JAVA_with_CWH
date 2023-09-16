@@ -167,11 +167,10 @@ public class CWH_14_String_methods {
 //        // Output:- r
 
 
-        // indexOf method of string
-
+        // (8) indexOf method of string
         // indexOf normal method
 
-        String p = "The true friendship between you and me, its really true";
+//        String p = "The true friendship between you and me, its really true";
 //        System.out.println(p.indexOf("me"));
         // this method is use to find the index number of the character and string but it return only first character or
         // substring index not at all.
@@ -185,12 +184,48 @@ public class CWH_14_String_methods {
         // indexOf method with starting character.
         // this method is use for find the index after the some character or substring.
         // example 1
-        System.out.println(p.indexOf("true",15));
+//        System.out.println(p.indexOf("true",15));
         // Output:- 51
 
         // Example 2
-        System.out.println(p.indexOf("s",43));
+//        System.out.println(p.indexOf("s",43));
         // Output:- -1  // it is print -1 because of there is no "s" character is present after 43.
+
+
+
+        // (9) lastIndexOf method of string.
+        // the lastIndexOf method is read the index on the end.
+//        String q = "no more chance is no more";
+//        System.out.println(q.lastIndexOf("no"));
+        // Output: 18
+//        System.out.println(q.lastIndexOf("o",15));
+        // Output: 4
+
+
+        // (10) equals method of strings.
+        // it check the string are equal or not. it return the output in booleans
+
+        // Example 1
+        String r = "good";
+        System.out.println(r.equals("good"));
+        // Output: true
+
+        // Example 2
+        System.out.println(r.equals("Good"));
+        // Output: false  // it return false because of java is the case sensitive.
+
+
+        // (11) equalsIgnoreCase method in string.
+        // this method is ignor the case sensitivity of the java.
+        String s = "what";
+        System.out.println(s.equalsIgnoreCase("what"));
+        // Output: true
+
+        // Example 2
+        System.out.println(s.equalsIgnoreCase("What"));
+        // Output: true  // it return true because of equalsIgnoreCase method of string is ignore the case sensitivity of the JAVA.
+
+
 
 
 
