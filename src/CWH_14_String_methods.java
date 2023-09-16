@@ -76,5 +76,26 @@ public class CWH_14_String_methods {
         // Output:- oogle is the compa
 
 
+        // (6) replace method.
+
+        // Character replace method
+
+        // Example 1
+        String f = "Who is Sahil";
+        String g = f.replace('s','t');
+        System.out.println(g);
+        // the replace method in string is replace the character of the string.
+        // in this example it replace only first word character of the string "is" is replace in to "it"
+        // no "Sahil" is replace in to "Tahil" because of JAVA is the case sensitive language "s" and "S" is different.
+        // Output:- Who it Sahil
+
+        // Example 2
+        String h = "noooo more chocklets";
+        System.out.println(h.replace('o','e'));
+        // Output:- neeee mere checklets
+
+
+
+
     }
 }
