@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class CWH_14_String_methods {
     public static void main(String[] args) {
 
@@ -109,6 +110,33 @@ public class CWH_14_String_methods {
         // Example 3
         System.out.println(i.replace("a","Toy"));
         // Output:- sToyhil is the bToyd boy thToyn hToyrry
+
+
+        // (7) starts with method of strings
+        // Example 1
+        // this method is return the booleans as true and false.
+        // this method check the string starts with and return the answer in true and false.
+        String j = "the sum of the number 2 and 3 is 5";
+        System.out.println(j.startsWith("the"));
+        // Output:- true
+        System.out.println(j.startsWith("dff"));
+        // Output:- false
+
+        // Example 2
+        // Starts with method using scanner for user input
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Hear: ");
+        String k = sc.nextLine();
+        System.out.println(j.startsWith(k));
+
+        // Example 3
+        System.out.print("Enter Your String Hear: ");
+        String l = sc.nextLine();
+        System.out.print("Enter Starts With Substring Or Character Hear: ");
+        String m = sc.nextLine();
+        System.out.print("Your Answer is: ");
+        System.out.println(l.startsWith(m));
+
 
 
     }
