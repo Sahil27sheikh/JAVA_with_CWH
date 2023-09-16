@@ -11,11 +11,19 @@ public class CWH_14_String_methods {
         // length method is also read the white spaces between the strings.
         // Output:- Sahil Is The Good Boy
 
+
         // (2) toLowerCase method of strings.
         String lString = name.toLowerCase();
         System.out.println(lString);
         // the toLowerCase is use to transform the full string in to the order of lower case.
         // Output:- sahil is the good boy  [ All the character of string in lower case.]
+
+
+        // (2) toUpperCase method of strings.
+        String uString = name.toUpperCase();
+        System.out.println(uString);
+        // the toLowerCase is use to transform the full string in to the order of upper case.
+        // Output:- SAHIL IS THE GOOD BOY  [ All the character of string in upper case.]
 
     }
 }
