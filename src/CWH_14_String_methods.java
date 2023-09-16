@@ -134,30 +134,38 @@ public class CWH_14_String_methods {
         // Starts with and Ends With method using scanner for user input
         // Starts with
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter Hear: ");
-        String k = sc.nextLine();
-        System.out.println(j.startsWith(k));
+//        System.out.print("Enter Hear: ");
+//        String k = sc.nextLine();
+//        System.out.println(j.startsWith(k));
 
         // Ends With:
-        System.out.print("Enter Hear: ");
-        String abc = sc.nextLine();
-        System.out.println(j.endsWith(k));
+//        System.out.print("Enter Hear: ");
+//        String abc = sc.nextLine();
+//        System.out.println(j.endsWith(k));
 
 
         // Example 3
         // Starts With
-        System.out.print("Enter Your String Hear: ");
-        String l = sc.nextLine();
-        System.out.print("Enter Starts With Substring Or Character Hear: ");
-        String m = sc.nextLine();
-        System.out.print("Your Answer is: ");
-        System.out.println(l.startsWith(m));
+//        System.out.print("Enter Your String Hear: ");
+//        String l = sc.nextLine();
+//        System.out.print("Enter Starts With Substring Or Character Hear: ");
+//        String m = sc.nextLine();
+//        System.out.print("Your Answer is: ");
+//        System.out.println(l.startsWith(m));
 
         // Ends With
-        System.out.print("Enter Starts With Substring Or Character Hear: ");
-        String n = sc.nextLine();
-        System.out.print("Your Answer is: ");
-        System.out.println(l.endsWith(m));
+//        System.out.print("Enter Starts With Substring Or Character Hear: ");
+//        String n = sc.nextLine();
+//        System.out.print("Your Answer is: ");
+//        System.out.println(l.endsWith(m));
+
+
+        // charAt method of string
+        // Example 1
+        String o = "Number of the gift are 6";
+        System.out.println(o.charAt(5));
+        // Output:- r
+
 
 
 
