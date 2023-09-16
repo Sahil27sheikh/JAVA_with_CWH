@@ -84,7 +84,7 @@ public class CWH_14_String_methods {
         String f = "Who is Sahil";
         String g = f.replace('s','t');
         System.out.println(g);
-        // the replace method in string is replace the character of the string.
+        // in this replace method the string is replace the character of the string.
         // in this example it replace only first word character of the string "is" is replace in to "it"
         // no "Sahil" is replace in to "Tahil" because of JAVA is the case sensitive language "s" and "S" is different.
         // Output:- Who it Sahil
@@ -95,6 +95,20 @@ public class CWH_14_String_methods {
         // Output:- neeee mere checklets
 
 
+        // Substring replacement method
+        // Example 1
+        // this method of the replacement is use for replace the substring. and it is write under " " .
+        String i= "sahil is the bad boy than harry";
+        System.out.println(i.replace("sahil","Pagal"));
+        // Output:- Pagal is the bad boy than harry
+
+        // Example 2
+        System.out.println(i.replace("ha","be"));
+        // Output:- sahil is the bad boy tben berry
+
+        // Example 3
+        System.out.println(i.replace("a","Toy"));
+        // Output:- sToyhil is the bToyd boy thToyn hToyrry
 
 
     }
