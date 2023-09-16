@@ -48,12 +48,18 @@ public class CWH_14_String_methods {
 
 
         // (5) trim method of strings.
+        // Example 1
         String a ="What is mean by String";
         String b = a.substring(10);
         System.out.println(b);
         // the substring is print the string form the number you define to the end of the string.
         // the numbering is start form "0 to end of the string."
         // Output:- an by String
+
+        // Example 2
+        String c = a.substring(17);
+        System.out.println(c);
+        // Output:-tring
 
 
     }
