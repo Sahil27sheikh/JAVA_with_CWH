@@ -19,11 +19,32 @@ public class CWH_14_String_methods {
         // Output:- sahil is the good boy  [ All the character of string in lower case.]
 
 
-        // (2) toUpperCase method of strings.
+        // (3) toUpperCase method of strings.
         String uString = name.toUpperCase();
         System.out.println(uString);
         // the toLowerCase is use to transform the full string in to the order of upper case.
         // Output:- SAHIL IS THE GOOD BOY  [ All the character of string in upper case.]
+
+
+        // (4) trim method of strings.
+        // Example 1
+        String nonTrimString = "   chance   ";
+        // System.out.println(nonTrimString); // if trim method is not use it print the spaces also.
+
+        // the trim method is use for delete the extra spaces of the string before and after only.
+
+        // After trim string method is use:
+        String trimString = nonTrimString.trim();
+        System.out.println(trimString);
+        // Output:- chance
+
+
+        //Example 3
+        String non = "    No More     Chance    in   the   game       ";
+
+        String yes = non.trim();
+        System.out.println(yes);
+        // Output:-No More     Chance    in   the   game  // no space before and after the string.
 
     }
 }
