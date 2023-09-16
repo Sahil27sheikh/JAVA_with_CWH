@@ -47,7 +47,7 @@ public class CWH_14_String_methods {
         // Output:-No More     Chance    in   the   game  // no space before and after the string.
 
 
-        // (5) trim method of strings.
+        // (5) substring(int start) method.
         // Example 1
         String a ="What is mean by String";
         String b = a.substring(10);
@@ -60,6 +60,20 @@ public class CWH_14_String_methods {
         String c = a.substring(17);
         System.out.println(c);
         // Output:-tring
+
+
+        // (5) substring(int start, int end) method.
+        // Example 1
+        String d ="Google is the company name";
+        String e = d.substring(5,15);
+        System.out.println(e);
+        // in this method you can able to print the string then to then.
+        // in this method the starting is the print but the ending is not print it is print only before the end.
+        // Output:- e is the c   // in this example "e means 5 to c means before the 15".
+
+        // Example 2
+        System.out.println(d.substring(1,19));
+        // Output:- oogle is the compa
 
 
     }
