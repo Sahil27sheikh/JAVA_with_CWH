@@ -13,6 +13,12 @@ public class CWH_15_Ch3_Practice_Set {
         System.out.println(b);
         // Output: I_Am_Replace
 
+        // Question 3 (replace name)
+        String c = "Dear <|name|>, Thanks a lot!";
+        c = c.replace("<|name|>","Sahil");
+        System.out.println(c);
+        // Output: Dear Sahil, Thanks a lot!
+
 
     }
 }
