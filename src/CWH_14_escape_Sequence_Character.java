@@ -11,6 +11,12 @@ public class CWH_14_escape_Sequence_Character {
         System.out.println("I am \'Single Quotes\' character.");
         // Output: I am 'Single Quot' character.
 
+        // \\ back slash
+        // this method is use for print or the \ on the string. and for the add back slash on the sting the \ is important
+        // and because of this reason \\ is use.
+        System.out.println("I am \\Back slash\\ character.");
+        // Output: I am \Back slash\ character.
+
 
 
     }
