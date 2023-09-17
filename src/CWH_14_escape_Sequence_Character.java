@@ -34,6 +34,10 @@ public class CWH_14_escape_Sequence_Character {
         System.out.println("I am \rCarriage Return character.");
         // Output: Carriage Return character.
 
+        // \f form feed
+        // it is add very small symbol of form feed.
+        System.out.println("Hii, I am \fForm feed");
+        // Output: Hii, I am Form feed // FF is show very small in the terminal.
     }
 }
 
