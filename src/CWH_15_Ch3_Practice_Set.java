@@ -7,6 +7,12 @@ public class CWH_15_Ch3_Practice_Set {
         System.out.println(a);
         // Output: my name is sudha
 
+        // Question 2 ( replace spaces with underscore )
+        String b = "I Am Replace";
+        b = b.replace(" ","_");
+        System.out.println(b);
+        // Output: I_Am_Replace
+
 
     }
 }
