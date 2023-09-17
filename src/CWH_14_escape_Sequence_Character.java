@@ -29,6 +29,11 @@ public class CWH_14_escape_Sequence_Character {
         //use for new line.
 
 
+        // \r carriage return
+        // it is skip the character or substring which is present before it.
+        System.out.println("I am \rCarriage Return character.");
+        // Output: Carriage Return character.
+
     }
 }
 
