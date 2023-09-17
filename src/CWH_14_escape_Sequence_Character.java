@@ -22,6 +22,11 @@ public class CWH_14_escape_Sequence_Character {
         System.out.println("I am\tcharacter");
         // Output: I am 	character
 
+        // \n for new line
+        // it is use to add new line.
+        System.out.println("Hii, I am\nuse for new line.");
+        // Output:Hii, I am
+        //use for new line.
 
 
     }
