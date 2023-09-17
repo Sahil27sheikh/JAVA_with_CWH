@@ -29,6 +29,11 @@ public class CWH_15_Ch3_Practice_Set {
         //         -1
 
 
-
+        // Question 5 ( format the following letter using escape sequence character.
+        String letter = "Dear Harry,\nThis java course is nice.\nThanks";
+        System.out.println(letter);
+        // Output: Dear Harry,
+        //This java couse is nice.
+        //Thanks
     }
 }
