@@ -6,6 +6,11 @@ public class CWH_14_escape_Sequence_Character {
         System.out.println("I am \"escape sequence\" character.");
         // Output: I am "escape sequence" character.
 
+        // \' single quotes
+        // this method os add for single quot in the string.
+        System.out.println("I am \'Single Quotes\' character.");
+        // Output: I am 'Single Quot' character.
+
 
 
     }
