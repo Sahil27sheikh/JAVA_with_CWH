@@ -6,10 +6,12 @@ public class CWH_14_escape_Sequence_Character {
         System.out.println("I am \"escape sequence\" character.");
         // Output: I am "escape sequence" character.
 
+
         // \' single quotes
         // this method os add for single quot in the string.
         System.out.println("I am \'Single Quotes\' character.");
         // Output: I am 'Single Quot' character.
+
 
         // \\ back slash
         // this method is use for print or the \ on the string. and for the add back slash on the sting the \ is important
@@ -17,10 +19,12 @@ public class CWH_14_escape_Sequence_Character {
         System.out.println("I am \\Back slash\\ character.");
         // Output: I am \Back slash\ character.
 
+
         // /t tab for add the tab on string.
         // it is print the tab on the string.
         System.out.println("I am\tcharacter");
         // Output: I am 	character
+
 
         // \n for new line
         // it is use to add new line.
@@ -34,10 +38,17 @@ public class CWH_14_escape_Sequence_Character {
         System.out.println("I am \rCarriage Return character.");
         // Output: Carriage Return character.
 
+
         // \f form feed
         // it is add very small symbol of form feed.
         System.out.println("Hii, I am \fForm feed");
         // Output: Hii, I am Form feed // FF is show very small in the terminal.
+
+
+        // \b backspace
+        // it is clear the before one white space on th string.
+        System.out.println("Hii, I am \bBack Space \bCharacter.");
+        // Hii, I amBack SpaceCharacter.
     }
 }
 
