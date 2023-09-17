@@ -19,6 +19,16 @@ public class CWH_15_Ch3_Practice_Set {
         System.out.println(c);
         // Output: Dear Sahil, Thanks a lot!
 
+        // Question 4 (Detect double and triple spaces
+        String d = "This string  contain  double and   triple  spaces.";
+        System.out.println(d.indexOf("  "));
+        System.out.println(d.indexOf("   "));
+        System.out.println(d.indexOf("    "));
+        // Output: 11
+        //         32
+        //         -1
+
+
 
     }
 }
