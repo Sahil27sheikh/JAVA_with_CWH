@@ -16,6 +16,17 @@ public class CWH_17_logical_conditionals {
         }
         // Output: NO
 
+        // || is OR (One are True)
+        System.out.println("For Logical OR");
+        if (a || b || c){
+            System.out.println("Yes");
+        }
+        else {
+            System.out.println("No");
+        }
+        // Output: Yes // it is evaluate in Yes because of any one is true
+
+
 
 
     }
