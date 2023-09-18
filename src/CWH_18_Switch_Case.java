@@ -34,5 +34,23 @@ public class CWH_18_Switch_Case {
         }
         // Output: you are going to become a cricketer!
 
+
+        // Another Example:
+        System.out.println("Another Example:");
+        switch ("football") {
+            case "cricket" ->System.out.println("you are going to become a cricketer!");
+
+            case "football" -> {
+                    System.out.println("you are going to become a footballer!");
+                    System.out.println("you are going to become a footballer!");
+                    System.out.println("you are going to become a footballer!");
+            }
+
+            case "Hockey" -> System.out.println("you are going to become a hockey champion!");
+
+            default -> System.out.println("enjoy your life");
+        }
+        // Output: you are going to become a cricketer!
+
     }
 }
