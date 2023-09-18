@@ -10,7 +10,7 @@ public class CWH_14_String_methods {
         // the length method is use to define the length of the string.
         // length method is start form zero to infinite. (ex:- 0,1,2,3,4,5,....)
         // length method is also read the white spaces between the strings.
-        // Output:- Sahil Is The Good Boy
+        // Output:- 21
 
 
         // (2) toLowerCase method of strings.
@@ -69,7 +69,7 @@ public class CWH_14_String_methods {
         String e = d.substring(5,15);
         System.out.println(e);
 //        // in this method you can able to print the string then to then.
-//        // in this method the starting is the print but the ending is not print it is print only before the end.
+//        // in this method the starting is the print is print but the ending is not print it is print only before the end.
 //        // Output:- e is the c   // in this example "e means 5 to c means before the 15".
 //
 //        // Example 2
@@ -206,8 +206,8 @@ public class CWH_14_String_methods {
         // it check the string are equal or not. it return the output in booleans
 
         // Example 1
-        String r = "good";
-        System.out.println(r.equals("good"));
+        String r = "good or Bad";
+        System.out.println(r.equals("good or Bad"));
         // Output: true
 
         // Example 2
