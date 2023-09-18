@@ -20,7 +20,7 @@ public class CWH_14_escape_Sequence_Character {
         // Output: I am \Back slash\ character.
 
 
-        // /t tab for add the tab on string.
+        // \t tab for add the tab on string.
         // it is print the tab on the string.
         System.out.println("I am\tcharacter");
         // Output: I am 	character
