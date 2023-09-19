@@ -81,7 +81,7 @@ public class CWH_19_Ch4_practice_set {
             default -> System.out.println("Sorry, You Have Entered Wrong Number!");
         }
 
-        // Question 4
+        // Question 5
         // calculate the year is leap year or not.
         System.out.println("Enter The Year: ");
         int year= sc.nextInt();
