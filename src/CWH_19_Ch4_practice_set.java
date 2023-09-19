@@ -87,6 +87,9 @@ public class CWH_19_Ch4_practice_set {
         }
         */
 
+        // Question 4
+        // calculate the year is leap year or not.
+        /*
         System.out.println("Enter The Year: ");
         int year= sc.nextInt();
         if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0))) {
@@ -97,7 +100,28 @@ public class CWH_19_Ch4_practice_set {
         else {
             System.out.println(year +" Is Non - Leap Year");
         }
+        */
 
+
+        // Question 5
+        // find out the type of the website at the base of url
+        System.out.print("Enter the url hear: ");
+        String url = sc.next();
+        if (url.endsWith(".com")){
+            System.out.println("This website is \"Commercial Website\"");
+        }
+
+        else if (url.endsWith(".org")) {
+            System.out.println("This website is \"Organization Website\"");
+        }
+
+        else if (url.endsWith(".in")) {
+            System.out.println("This website is \"Indian Website\"");
+        }
+
+        else {
+            System.out.println("You Are Entered Wrong Website");
+        }
 
     }
 }
