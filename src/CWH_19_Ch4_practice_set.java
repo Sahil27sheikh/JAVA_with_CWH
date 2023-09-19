@@ -18,6 +18,7 @@ public class CWH_19_Ch4_practice_set {
         // Question 2:
         // Get the input form user of 3 subjects and show it you are pass or fail.
         Scanner sc = new Scanner(System.in);
+        /*
         byte m1,m2,m3;
         System.out.print("Enter Your marks in physics: ");
         m1 = sc.nextByte();
@@ -37,6 +38,66 @@ public class CWH_19_Ch4_practice_set {
         else {
             System.out.println("Sorry, You have not been promoted! Better luck next time");
         }
+        */
+
+
+        // Question 3:
+        // Calculate the income tax of the employ of government as per sales mentioned below.
+        /*
+        System.out.println("Enter Your Income: ");
+        float income = sc.nextFloat();
+        float tax = 0;
+        if (income<=2.5){
+            tax = tax + 0;
+        }
+
+        else if (income>2.5f && income<=5f) {
+            tax = tax + 0.05f * (income - 2.5f);
+        }
+
+        else if (income>5f && income<=10.0f) {
+            tax = tax + 0.05f * (5.0f - 2.5f);
+            tax = tax + 0.2f * (income - 5.0f);
+        }
+
+        else if (income>10f) {
+            tax = tax + 0.05f * (5.0f - 2.5f);
+            tax = tax + 0.2f * (10.0f - 5f);
+            tax = tax + 0.3f * (income - 10.0f);
+        }
+
+        System.out.println("The total tax paid by employ is: "+tax);
+        */
+
+
+        // Question 4:
+        // find the day of weak using given the number.
+        /*
+        System.out.print("Enter The Number: ");
+        int day = sc.nextInt();
+        switch (day){
+            case 1 -> System.out.println("Monday");
+            case 2 -> System.out.println("Tuesday");
+            case 3 -> System.out.println("Wednesday");
+            case 4 -> System.out.println("Thursday");
+            case 5 -> System.out.println("Friday");
+            case 6 -> System.out.println("Saturday");
+            case 7 -> System.out.println("Sunday");
+            default -> System.out.println("Sorry, You Have Entered Wrong Number!");
+        }
+        */
+
+        System.out.println("Enter The Year: ");
+        int year= sc.nextInt();
+        if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0))) {
+
+            System.out.println(year +" Is The Leap Year");
+        }
+
+        else {
+            System.out.println(year +" Is Non - Leap Year");
+        }
+
 
     }
 }
