@@ -18,7 +18,6 @@ public class CWH_19_Ch4_practice_set {
         // Question 2:
         // Get the input form user of 3 subjects and show it you are pass or fail.
         Scanner sc = new Scanner(System.in);
-        /*
         byte m1,m2,m3;
         System.out.print("Enter Your marks in physics: ");
         m1 = sc.nextByte();
@@ -38,12 +37,10 @@ public class CWH_19_Ch4_practice_set {
         else {
             System.out.println("Sorry, You have not been promoted! Better luck next time");
         }
-        */
 
 
         // Question 3:
         // Calculate the income tax of the employ of government as per sales mentioned below.
-        /*
         System.out.println("Enter Your Income: ");
         float income = sc.nextFloat();
         float tax = 0;
@@ -67,12 +64,10 @@ public class CWH_19_Ch4_practice_set {
         }
 
         System.out.println("The total tax paid by employ is: "+tax);
-        */
 
 
         // Question 4:
         // find the day of weak using given the number.
-        /*
         System.out.print("Enter The Number: ");
         int day = sc.nextInt();
         switch (day){
@@ -85,11 +80,9 @@ public class CWH_19_Ch4_practice_set {
             case 7 -> System.out.println("Sunday");
             default -> System.out.println("Sorry, You Have Entered Wrong Number!");
         }
-        */
 
         // Question 4
         // calculate the year is leap year or not.
-        /*
         System.out.println("Enter The Year: ");
         int year= sc.nextInt();
         if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0))) {
@@ -100,7 +93,6 @@ public class CWH_19_Ch4_practice_set {
         else {
             System.out.println(year +" Is Non - Leap Year");
         }
-        */
 
 
         // Question 5
