@@ -1,5 +1,4 @@
-import java.util.Scanner;
-public class CWH_21_Loops {
+public class CWH_21_whileLoops {
     // Their are three types of loops in java
     public static void main(String[] args) {
 
