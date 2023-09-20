@@ -19,5 +19,15 @@ public class CWH_22_doWhileLoop {
             b++;
         }
         while (c<+5);
+
+
+        // Quick Quiz
+        // print the "n" number of do while loop
+        int a = 1;
+        do{
+            System.out.println("yes "+a);
+            a++;
+        }
+        while (a<=100);
     }
 }
