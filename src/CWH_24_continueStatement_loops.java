@@ -9,5 +9,18 @@ public class CWH_24_continueStatement_loops {
             }
             System.out.println("java is great "+i);
         }
+
+
+        // continue with while loop.
+        int a = 0;
+        while (a<20){
+            a++;
+            if (a==10){
+                System.out.println("While loop is end");
+                continue;
+            }
+            System.out.println("While loop is continue "+a);
+
+        }
     }
 }
