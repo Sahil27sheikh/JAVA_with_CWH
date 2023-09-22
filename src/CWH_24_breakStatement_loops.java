@@ -1,4 +1,4 @@
-public class CWH_24_breadStatement_loops {
+public class CWH_24_breakStatement_loops {
     public static void main(String[] args) {
         // Break is use withe for loop.
         for ( int i= 0; i<50; i++){
