@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class CWH_23_forLoop {
     public static void main(String[] args) {
 
@@ -20,6 +21,14 @@ public class CWH_23_forLoop {
         // Decrementing for loop.
         for ( int b = 5; b>0; b--){
             System.out.println(b);
+        }
+
+        // Quick Quiz
+        // Write a java programme to print the first "n" natural numbers in reverse order.
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        for (int d = sc.nextInt(); d>0; d--){
+            System.out.println(d);
         }
     }
 }
