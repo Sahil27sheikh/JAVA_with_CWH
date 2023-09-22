@@ -15,5 +15,11 @@ public class CWH_23_forLoop {
         for (int i = 0; i<n; i++){
             System.out.println(2*i+1);
         }
+
+
+        // Decrementing for loop.
+        for ( int b = 5; b>0; b--){
+            System.out.println(b);
+        }
     }
 }
