@@ -22,5 +22,18 @@ public class CWH_24_continueStatement_loops {
             System.out.println("While loop is continue "+a);
 
         }
+
+
+        // continue with do while loop.
+        int b =0;
+        do {
+            b++;
+            if (b==5){
+                System.out.println("5 is skip");
+                continue;
+            }
+            System.out.println("do while loop "+b);
+        }while (b<10);
+        System.out.println("do while loop end hear");
     }
 }
