@@ -3,14 +3,23 @@ public class CWH_25_ch5_pr_q5 {
     public static void main(String[] args) {
         // Question 5
         // write the java of the find the factorial of the given number.
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        long a = sc.nextLong();
+        long ftr = 1L;
+        for (long item=1L; item<=a; item++){
+            ftr *= item;
+        }
+        System.out.printf("The factorial of %d is %d",a,ftr);
+        System.out.println();
+
 
 
 
         // Question 5
         // write the java of the find the factorial of the given number.
-        Scanner sc = new Scanner(System.in);
         System.out.print("enter the number: ");
-        long n = sc.nextInt();
+        long n = sc.nextLong();
         long i = 1L;
         long factorial = 1L; // the value of the factorial is use 1 because of when "0" is the value the multiplication is always "0"
                              // "0" is use for sum and minus.
