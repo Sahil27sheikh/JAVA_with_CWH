@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class CWH_25_ch5_practiceSet {
+public class CWH_25_ch5_practiceSet_q1 {
     public static void main(String[] args) {
         /*
         Question 1
