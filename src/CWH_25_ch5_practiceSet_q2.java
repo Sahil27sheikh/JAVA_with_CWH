@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class CWH_25_ch5_practiceSet_q2 {
     public static void main(String[] args) {
 
-        // Write the java programme to sum first "n" even numbers using while loops.
+        // Write the java programme to sum first "n" even numbers using for loops.
         Scanner sc = new Scanner(System.in);
 
         int sum = 0;
