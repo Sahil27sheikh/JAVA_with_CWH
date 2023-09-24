@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class CWH_25_ch5_pr_q5 {
+public class CWH_25_ch5_pr_q5_q7 {
     public static void main(String[] args) {
         // Question 5
         // write the java of the find the factorial of the given number.
@@ -16,7 +16,7 @@ public class CWH_25_ch5_pr_q5 {
 
 
 
-        // Question 5
+        // Question 7
         // write the java of the find the factorial of the given number.
         System.out.print("enter the number: ");
         long n = sc.nextLong();

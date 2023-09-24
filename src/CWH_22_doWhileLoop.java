@@ -16,9 +16,9 @@ public class CWH_22_doWhileLoop {
         int c = 10;
         do {
             System.out.println(c);
-            b++;
+            c++;
         }
-        while (c<+5);
+        while (c<=5);
 
 
         // Quick Quiz
