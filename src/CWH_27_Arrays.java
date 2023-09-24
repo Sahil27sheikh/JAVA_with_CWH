@@ -18,5 +18,26 @@ public class CWH_27_Arrays {
         System.out.println("Simple way to display the array: "+ marks[3]);
         System.out.println("Simple way to display the array: "+ marks[4]);
         System.out.println("Simple way to display the array: "+ marks[5]);
+
+
+        // Display array using for loop.
+        // in this method we can able to display array in only one or two line.
+        for (int i=0; i<students.length; i++){
+            System.out.println("Display array using for loop: "+marks[i]);
+        }
+
+
+        // Quick Quiz
+        // Print the element of the array in reverse order.
+        System.out.println("Quick Quiz - display array in reverse order");
+        for (int i= marks.length -1; i>=0; i--){
+            System.out.println("Quick quiz in reverse order: "+marks[i]);
+        }
+
+
+        // Very simple method to display the arrays in java.
+        for (float element: marks){
+            System.out.println("Very simple way to display array: "+element);
+        }
     }
 }
