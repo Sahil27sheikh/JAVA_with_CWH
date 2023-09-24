@@ -1,4 +1,4 @@
-public class CWH_27_Arrays {
+public class CWH_27_ArraysLength_DisplayMethods {
     public static void main(String[] args) {
         float [] marks = {89.5f, 45, 56.5f, 99.5f, 89f, 78.5f};
 
@@ -11,7 +11,7 @@ public class CWH_27_Arrays {
         System.out.println("The length of the array is: "+ students.length);
         System.out.println("The marks of the student is: "+ students[5]);
 
-        // The very simple method to display the array.
+        // The simple method to display the array.
         System.out.println("Simple way to display the array: "+ marks[0]);
         System.out.println("Simple way to display the array: "+ marks[1]);
         System.out.println("Simple way to display the array: "+ marks[2]);
@@ -35,7 +35,7 @@ public class CWH_27_Arrays {
         }
 
 
-        // Very simple method to display the arrays in java.
+        // Very simple method to display the arrays in java (for-each loop method)
         for (float element: marks){
             System.out.println("Very simple way to display array: "+element);
         }
