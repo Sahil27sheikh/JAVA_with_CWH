@@ -20,9 +20,9 @@ public class CWH_28_MultidimensionalArrays {
         for(int i=0; i< flats.length; i++){
             for (int j= 0; j<flats[i].length; j++){
                 System.out.print(flats[i][j]);
-                System.out.print(" ");
+                System.out.print(" ");  // Add the spaces between the value
             }
-            System.out.println();
+            System.out.println();  //Add new line after the one line is end
         }
 
 
