@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class CWH_29_PracticeSet {
+public class CWH_29_PracticeSet_q1_q2_q3 {
     public static void main(String[] args) {
         // Question 1;
         // Create the array of 5 floats and calculate their sum.
@@ -38,11 +38,11 @@ public class CWH_29_PracticeSet {
         // Question 3
         // Calculate the average marks of the array containing marks of all students in physics using for each loop.
         System.out.println("Question 3");
-        float [] c = {22.5f, 10.4f, 34.6f, 50.34f, 45.4f};
+        float [] c = {72.5f, 99.4f, 100f, 80.34f, 65.4f};
         float total = 0;
         for (float i:c){
             total = total+i;
         }
-        System.out.println("the average marks of the students is : "+total/c.length);
+        System.out.println("the average marks of the students is : "+total/c.length +"%");
     }
 }
