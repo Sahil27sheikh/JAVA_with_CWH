@@ -1,5 +1,8 @@
 public class CWH_29_PracticeSet_q4 {
     public static void main(String[] args) {
+
+        // print the 2D array and their sum.
+
 //        int [][] mat1 = {{1,2,3},
 //                        {4,5,6}};  // it is 2D array 2X3 matrix.
 //
@@ -21,7 +24,7 @@ public class CWH_29_PracticeSet_q4 {
 //                System.out.print(result[i][j] + " ");
 //                result[i][j] = mat1[i][j] + mat2[i][j];
 //            }
-//            System.out.println();
+//            System.out.println(); // print only new line.
 //        }
 
 
