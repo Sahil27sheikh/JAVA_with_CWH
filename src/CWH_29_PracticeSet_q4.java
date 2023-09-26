@@ -1,4 +1,4 @@
-public class CWH_29_PracticeSet {
+public class CWH_29_PracticeSet_q4 {
     public static void main(String[] args) {
 //        int [][] mat1 = {{1,2,3},
 //                        {4,5,6}};  // it is 2D array 2X3 matrix.
