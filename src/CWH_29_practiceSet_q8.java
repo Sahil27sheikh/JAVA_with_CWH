@@ -33,6 +33,6 @@ public class CWH_29_practiceSet_q8 {
         else {
             System.out.println("The array is not sorted.");
         }
-        // Output: The array is sorted.
+        // Output: The array is not sorted.
     }
 }
