@@ -23,7 +23,7 @@ public class CWH_29_PracticeSet_q5 {
         // Output: 7 6 5 4 3 2 1
 
 
-        int [] b = {245,378,4,44556,68,75};
+        int [] b = {2,378,4,44556,68,75};
         int number = Math.floorDiv(b.length, 2);
         int temporary;
         for( int i=0; i<number; i++){
