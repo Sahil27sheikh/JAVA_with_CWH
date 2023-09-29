@@ -43,6 +43,7 @@ public class CWH_29_ch6_practiceSet_practice {
 
 
         // Question 4
+        /*
         int [][] mat1 = {{23, 54, 98},
                          {45, 64, 24}};
 
@@ -63,6 +64,23 @@ public class CWH_29_ch6_practiceSet_practice {
             }
             System.out.println(); // for new line
         }
+        */
+
+        /*
+        // Question 5
+        int [] b = {25,37,4,46,68,75};
+        int number = Math.floorDiv(b.length, 2);
+        int temp;
+        for (int i = 0; i<number; i++){
+            temp = b[i];
+            b[i] = b[b.length - i -1];
+            b[b.length - i - 1] = temp;
+        }
+        for (int element:b){
+            System.out.print(element + " ");
+        }
+        */
+
 
 
 
