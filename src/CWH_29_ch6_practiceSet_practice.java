@@ -87,9 +87,22 @@ public class CWH_29_ch6_practiceSet_practice {
         int [] d = {25,37,4,46,98,75};
         int max = Integer.MIN_VALUE;
         for (int e:d){
-            max= e;
+            if (e>max) {
+                max = e;
+            }
         }
         System.out.println("The maximum value of element of the array is: "+max);
+
+
+        // Question 7
+        int [] f = {25,37,4,46,98,75};
+        int min = Integer.MAX_VALUE;
+        for (int element:f){
+            if (element<min) {
+                min = element;
+            }
+        }
+        System.out.println("The maximum value of element of the array is: "+min);
 
 
 
