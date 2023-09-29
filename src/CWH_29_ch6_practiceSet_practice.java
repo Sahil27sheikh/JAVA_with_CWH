@@ -83,6 +83,19 @@ public class CWH_29_ch6_practiceSet_practice {
 
 
 
+        // Question 6
+        int [] d = {25,37,4,46,98,75};
+        int max = Integer.MIN_VALUE;
+        for (int e:d){
+            max= e;
+        }
+        System.out.println("The maximum value of element of the array is: "+max);
+
+
+
+
+
+
 
     }
 }
