@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class CWH_29_ch6_practiceSet_practice {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        /*
         // Question 1
         float [] f = {1.11f,2.2f,3.06f,4.78f,5.89f};
         float sum = 0;
@@ -38,6 +39,31 @@ public class CWH_29_ch6_practiceSet_practice {
             total = total+i;
         }
         System.out.println("the average marks of the all students in the physics is: "+total/b.length +"%");
+        */
+
+
+        // Question 4
+        int [][] mat1 = {{23, 54, 98},
+                         {45, 64, 24}};
+
+        int [][] mat2 = {{235, 5, 98},
+                         {48, 64, 2}};
+
+        int [][] result = {{0, 0, 0},
+                           {0, 0, 0}};
+        for (int i=0; i<mat1.length; i++){
+            for (int j=0; j<mat1[i].length; j++){
+                System.out.printf("The setting value of i=%d and j=%d\n",i,j);
+                result [i][j]=mat1[i][j] + mat2[i][j];
+            }
+        }
+        for (int i=0; i<mat1.length; i++){
+            for (int j=0; j<mat1[i].length; j++){
+                System.out.print(result[i][j] +" ");
+            }
+            System.out.println(); // for new line
+        }
+
 
 
     }
