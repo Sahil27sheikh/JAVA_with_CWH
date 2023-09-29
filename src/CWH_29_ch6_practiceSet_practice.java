@@ -83,6 +83,7 @@ public class CWH_29_ch6_practiceSet_practice {
 
 
 
+        /*
         // Question 6
         int [] d = {25,37,4,46,98,75};
         int max = Integer.MIN_VALUE;
@@ -103,6 +104,24 @@ public class CWH_29_ch6_practiceSet_practice {
             }
         }
         System.out.println("The maximum value of element of the array is: "+min);
+        */
+
+
+        // Question 8
+        boolean isSorted = true;
+        int [] g = {1,3, 5, 6, 8};
+        for (int i=0; i<g.length-1; i++){
+            if (g[i] > g[i+1]){
+                isSorted = false;
+                break;
+            }
+        }
+        if (isSorted){
+            System.out.println("The array is sorted");
+        }
+        else {
+            System.out.println("The array is not sorted");
+        }
 
 
 
