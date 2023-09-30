@@ -22,6 +22,10 @@ public class CWH_32_methods_overloading {
         System.out.println("Good morning "+m+" times bro!");
     }
 
+    static void bro(String a, int b){    // same name with no arguments.
+        System.out.println("Hi, "+a+" you won "+b+" rupees");
+    }
+
 
     public static void main(String[] args) {
 
@@ -53,9 +57,11 @@ public class CWH_32_methods_overloading {
 
 
         // Method overloading
+        // bro 1 method
         bro();
         // Output: Good morning bro!
 
+        // bro 2 method
         bro(5000);
         // Output: Good morning 5000 times bro!
 
@@ -63,6 +69,16 @@ public class CWH_32_methods_overloading {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number: ");
         bro(sc.nextInt());
+
+
+        // bro 3 method
+        bro("Mohammad",15000);
+        // Output: Hi, Mohammad you won 15000 rupees
+
+        // using user input
+        System.out.print("Enter the name: ");
+        bro(sc.next(),10000);
+
 
 
     }
