@@ -27,7 +27,7 @@ public class CWH_31_methods_callingMethod {
         int p = 34343;
         int q = 54543;
         int r;
-        r = obj.logic(p,q);
+        r = obj.logic(p,q);   // we have able to create a new object for call this programme.
         System.out.println(r);
 
     }
