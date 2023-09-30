@@ -22,7 +22,7 @@ public class CWH_32_methods_overloading {
         System.out.println("Good morning "+m+" times bro!");
     }
 
-    static void bro(String a, int b){    // same name with no arguments.
+    static void bro(String a, int b){    // same name with parameter.
         System.out.println("Hi, "+a+" you won "+b+" rupees");
     }
 
@@ -83,3 +83,6 @@ public class CWH_32_methods_overloading {
 
     }
 }
+
+// Note: we can not able to use overloading by changing return type of methods.
+//       we can able to use overloading by changing the parameters of methods.
