@@ -14,11 +14,11 @@ public class CWH_32_methods_overloading {
 
 
     // Method overloading.
-    static void bro(){
+    static void bro(){    // same name with no arguments.
         System.out.println("Good morning bro!");
     }
 
-    static void bro(int m){   // Same name of method but different uses. and because of this reason java can not throw error.
+    static void bro(int m){   // Same name of method with arguments. and because of this reason java can not throw error.
         System.out.println("Good morning "+m+" times bro!");
     }
 
