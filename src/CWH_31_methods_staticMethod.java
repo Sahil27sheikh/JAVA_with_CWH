@@ -1,5 +1,5 @@
-public class CWH_31_methods {
-    static int logic(int x , int y){
+public class CWH_31_methods_staticMethod {
+    static int logic(int x , int y){  // static method is use because of we can only able to use static method under a another static method.
         int z;
         if (x>y){
             z = x+y;
@@ -22,8 +22,8 @@ public class CWH_31_methods {
         int p = 34343;
         int q = 54543;
         int r;
-        c = logic(p,q);
-        System.out.println(c);
+        r = logic(p,q);
+        System.out.println(r);
 
     }
 }
