@@ -59,6 +59,11 @@ public class CWH_32_methods_overloading {
         bro(5000);
         // Output: Good morning 5000 times bro!
 
+        // use bro method using user input.
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        bro(sc.nextInt());
+
 
     }
 }
