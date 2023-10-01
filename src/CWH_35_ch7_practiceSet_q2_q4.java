@@ -37,6 +37,13 @@ public class CWH_35_ch7_practiceSet_q2_q4 {
 
 
         // Question 4
+        // write the programme with use the function to print following pattern.
+        /*
+        * * * *
+        * * *
+        * *
+        *
+        */
         System.out.println("Question 4");
         System.out.print("Enter the number: ");
         starPattern2(sc.nextInt());
