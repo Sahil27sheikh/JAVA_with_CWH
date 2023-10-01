@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class CWH_35_ch7_practiceSet_q2 {
+public class CWH_35_ch7_practiceSet_q2_q4 {
 
     // Question 2:
     static void starPattern1(int n){
