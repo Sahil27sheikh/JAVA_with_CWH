@@ -16,6 +16,7 @@ public class CWH_35_ch7_practiceSet_q3_q9 {
         }
     }
 
+    // Question 9:
     static int sumNatural2(int n){
         if (n<=0){
             return 0;
@@ -29,6 +30,7 @@ public class CWH_35_ch7_practiceSet_q3_q9 {
     public static void main(String[] args) {
         // Question 3:
         // Write a recursive function to calculate the sum of first n natural numbers
+        System.out.println("Question 3");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number: ");
         int a = sumNatural(sc.nextInt());
@@ -37,6 +39,7 @@ public class CWH_35_ch7_practiceSet_q3_q9 {
 
     // Question 9:
     // Write a function to calculate the sum of first n natural numbers using iterative approach.
+        System.out.println("Question 9");
         System.out.print("Enter the number: ");
     int b = sumNatural2(sc.nextInt());
         System.out.println(b);
