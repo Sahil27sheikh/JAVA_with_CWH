@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class CWH_32_methods_overloading {
+public class CWH_32_ch7_methods_overloading {
     static void tellme(){  // void is use when nothing to return.
         System.out.println("Hii, I am  a sahil form umred city");
     }

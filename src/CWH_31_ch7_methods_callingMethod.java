@@ -1,4 +1,4 @@
-public class CWH_31_methods_callingMethod {
+public class CWH_31_ch7_methods_callingMethod {
 
     // Another method to use methods in java.
     // calling a method
@@ -19,7 +19,7 @@ public class CWH_31_methods_callingMethod {
         int b = 7;
         int c;
 
-        CWH_31_methods_callingMethod obj = new CWH_31_methods_callingMethod();   // Create a new syntax of method for use logic method.
+        CWH_31_ch7_methods_callingMethod obj = new CWH_31_ch7_methods_callingMethod();   // Create a new syntax of method for use logic method.
         c = obj.logic (a,b);
         System.out.println(c);
 

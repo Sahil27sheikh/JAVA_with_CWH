@@ -1,4 +1,4 @@
-public class CWH_33_methods_varargs {
+public class CWH_33_ch7_methods_varargs {
 
     // it is the varargs method in java which is solve the problem to create multiple methods for the same functionality.
     // it is get the all values in the form of array.
