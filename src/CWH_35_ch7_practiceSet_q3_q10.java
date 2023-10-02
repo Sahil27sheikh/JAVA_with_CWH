@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class CWH_35_ch7_practiceSet_q3_q9 {
+public class CWH_35_ch7_practiceSet_q3_q10 {
     // Question 3:
     // sum (n) = sum(n-1) + n
     // Example:
@@ -16,7 +16,7 @@ public class CWH_35_ch7_practiceSet_q3_q9 {
         }
     }
 
-    // Question 9:
+    // Question 10:
     static int sumNatural2(int n){
         if (n<=0){
             return 0;
@@ -37,7 +37,7 @@ public class CWH_35_ch7_practiceSet_q3_q9 {
         System.out.println(a);
 
 
-    // Question 9:
+    // Question 10:
     // Write a function to calculate the sum of first n natural numbers using iterative approach.
         System.out.println("Question 9");
         System.out.print("Enter the number: ");

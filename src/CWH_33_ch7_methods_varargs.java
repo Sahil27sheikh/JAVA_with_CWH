@@ -35,8 +35,8 @@ public class CWH_33_ch7_methods_varargs {
         System.out.println("The sum of the value of the 4, 200,651,787 and 89 is: "+sum(4)); // only one value
         // Output: The sum of the value of the 4, 200,651,787 and 89 is: 4
 
-        System.out.println("The sum of the value of the 4, 200,651,787 and 89 is: "+sum()); // empty
-        // Output: The sum of the value of the 4, 200,651,787 and 89 is: 0
+        System.out.println("The sum of the no value is: "+sum()); // empty
+        // Output: The sum of the no value is: 0
         // if you have not entered the any value in the sum it is print "0" because nothing is present in the method.
 
 
