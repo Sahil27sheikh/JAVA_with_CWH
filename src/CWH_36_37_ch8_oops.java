@@ -1,4 +1,4 @@
-public class CWH_36_ch8_oops {
+public class CWH_36_37_ch8_oops {
     public static void main(String[] args) {
     }
 }
@@ -12,7 +12,7 @@ public class CWH_36_ch8_oops {
 
 // What is DRY?
 // DRY means Do Not Repeat Yourself.
-// DRY is use to reduce the copy pest of the code and reduce the mentanance and size of code.
+// DRY is use to reduce the copy pest of the code and reduce the maintenance and size of code.
 
 // Class:
 // A class is a blueprint for creation Object.
