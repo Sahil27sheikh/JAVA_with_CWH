@@ -24,7 +24,7 @@ class Employee1{
         name = n;
     }
 }
-public class CWH_ch8_practiceSet_q1 {
+public class CWH_39_ch8_practiceSet_q1 {
     public static void main(String[] args) {
         // Question 1
         Employee1 sahil = new Employee1();

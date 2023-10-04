@@ -14,7 +14,7 @@ class cellphone{
         System.out.println("Calling...");
     }
 }
-public class CWH_ch8_practiceSet_q2 {
+public class CWH_39_ch8_practiceSet_q2 {
     public static void main(String[] args){
         cellphone s1pro = new cellphone();
         s1pro.call();
