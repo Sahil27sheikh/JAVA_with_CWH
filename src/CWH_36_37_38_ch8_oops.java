@@ -4,8 +4,8 @@ class Employee{
     int id;
     String name;
     public void printDetails(){ // create a new method in our custom class
-        System.out.println("My ID is: "+id);
         System.out.println("My name is: "+name);
+        System.out.println("My ID is: "+id);
     }
 }
 
@@ -13,14 +13,19 @@ public class CWH_36_37_38_ch8_oops {
     public static void main(String[] args) {
         System.out.println("This is out custom class");
         Employee sahil = new Employee(); // Instantiating a new Employee Object.
+        Employee john = new Employee();
         // Setting Attribute
         sahil.id = 23;
         sahil.name = "codeWithSahil";
+
+        john.id = 29;
+        john.name = "John Ibrahim";
 
         // Printing the Attribute
         // System.out.println(sahil.id);
         // System.out.println(sahil.name);
         sahil.printDetails(); // print the details
+        john.printDetails();
     }
 }
 
