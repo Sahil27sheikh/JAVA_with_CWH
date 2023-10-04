@@ -1,3 +1,11 @@
+// Question 1:
+// Create a class Employee with following properties and methods
+// salary
+// getSalary
+// name
+// getName
+// setName
+
 class Employee1{
     // Properties:
     int salary;
