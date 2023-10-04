@@ -1,5 +1,19 @@
+
+// Writing a custom class
+class Employee{
+    int id;
+    String name;
+}
+
 public class CWH_36_37_38_ch8_oops {
     public static void main(String[] args) {
+        System.out.println("This is out custom class");
+        Employee sahil = new Employee(); // Instantiating a new Employee Object.
+        // Setting Attribute
+        sahil.id = 23;
+        sahil.name = "codeWithSahil";
+        System.out.println(sahil.id);
+        System.out.println(sahil.name);
     }
 }
 
