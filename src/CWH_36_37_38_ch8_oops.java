@@ -2,10 +2,14 @@
 // Writing a custom class
 class Employee{
     int id;
+    int salary;
     String name;
     public void printDetails(){ // create a new method in our custom class
         System.out.println("My name is: "+name);
         System.out.println("My ID is: "+id);
+    }
+    public int printSalary(){
+        return salary;
     }
 }
 
@@ -14,18 +18,25 @@ public class CWH_36_37_38_ch8_oops {
         System.out.println("This is out custom class");
         Employee sahil = new Employee(); // Instantiating a new Employee Object.
         Employee john = new Employee();
-        // Setting Attribute
+        // Setting Attribute for sahil
         sahil.id = 23;
         sahil.name = "codeWithSahil";
+        sahil.salary = 50000;
+        int sahilSalary = sahil.printSalary();
 
+        // Setting Attribute for john
         john.id = 29;
         john.name = "John Ibrahim";
+        john.salary = 10000;
+        int johnSalary = john.printSalary();
 
         // Printing the Attribute
         // System.out.println(sahil.id);
         // System.out.println(sahil.name);
-        sahil.printDetails(); // print the details
-        john.printDetails();
+        sahil.printDetails(); // print the details of sahil
+        System.out.println("The salary of the sahil is: " +sahilSalary);
+        john.printDetails();  // print the details of john
+        System.out.println("The salary of the john is: " +johnSalary);
     }
 }
 
