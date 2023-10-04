@@ -12,7 +12,7 @@ class square{
         return 4*side;
     }
 }
-public class CWH_39_ch8_q3 {
+public class CWH_39_ch8_practiceSet_q3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         square sq = new square();
