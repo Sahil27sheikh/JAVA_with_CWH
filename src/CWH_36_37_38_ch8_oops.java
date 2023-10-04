@@ -1,4 +1,4 @@
-public class CWH_36_37_ch8_oops {
+public class CWH_36_37_38_ch8_oops {
     public static void main(String[] args) {
     }
 }
@@ -26,7 +26,7 @@ public class CWH_36_37_ch8_oops {
 // memory is allocated only after object is created or instantiation.
 
 // How to model a problem in oops?
-// We can find the Noun, Adjective and verbs in out problems.
+// We can find the Noun, Adjective and verbs in our problems.
 // Example to know this-
 // Noun -------------> Class -------> Employee
 // Adjective --------> Attribute ---> name, age, salary of employee
