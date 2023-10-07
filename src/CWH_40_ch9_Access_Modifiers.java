@@ -1,4 +1,3 @@
-
 class myEmployee{
     private int id; // privet keyword is use for create privet.
     private String name;
