@@ -36,3 +36,18 @@ public class CWH_40_ch9_Access_Modifiers {
         System.out.println(harry.getId());
     }
 }
+/*
+Access modifier is specify where a property or method is accessible.
+Their are four type of access modifier-
+1. Private
+2. Default
+3. Protected
+4. public
+
+(1) Privet:
+In the privet we can not able to access the class directly.
+We can access the privet using methods.
+we can implement the data hidden using method in privet.
+for access the privet access modifier their are two methods is use their is Getters and Second is Setters.
+
+*/
