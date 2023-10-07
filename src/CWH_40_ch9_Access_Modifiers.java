@@ -49,5 +49,5 @@ In the privet we can not able to access the class directly.
 We can access the privet using methods.
 we can implement the data hidden using method in privet.
 for access the privet access modifier their are two methods is use their is Getters and Second is Setters.
-
+Getter return the value and setter update the value.
 */
